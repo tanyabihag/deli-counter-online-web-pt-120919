@@ -1,17 +1,10 @@
-def line(customers)
-customers = []
-counter = 0 
+kats_deli = []
 
-  if counter == 0 
+def line(kats_deli)
+  line_array = []
+  if kats_deli == 0 
     puts "The line is currently empty."
-  elsif counter > 0 
-    customers.each do |customer|
-    counter += 1 
-    puts "The line is currently: #{counter}. + #{customer}"
-     end 
-  end
-  
-end 
+  else 
     
     
       
