@@ -1,2 +1,2 @@
 def line 
-  puts ""
+  
