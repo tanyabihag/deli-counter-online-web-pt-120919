@@ -8,7 +8,8 @@ counter = 0
     customers.each do |customer|
     counter += 1 
     puts "The line is currently: #{counter}. + #{customer}"
-  end 
+     end 
+  end
   
 end 
     
